@@ -1,0 +1,548 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: EASPORTS15;
+    src: url(fonts/EASPORTS15.ttf);
+}
+
+@font-face {
+    font-family: NimbusSanL-Bol;
+    src: url(fonts/NimbusSanL-Bol.otf);
+}
+
+@font-face {
+    font-family: FANTONY Regular;
+    src: url(fonts/FANTONY.otf);
+}
+
+@font-face {
+    font-family: Impact Regular;
+    src: url(fonts/impact.ttf);
+}
+
+body{
+    background: #1A1A1A;
+    font-family:  EASPORTS15;
+    margin-left: 0;
+    padding: 0;
+}
+
+.content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar{
+    background: #2D2D2D;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: #B1E600;
+}
+
+.navbar-links ul{
+    margin-left: 50px;
+    margin-right: 120px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+    font-size: 25px;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: #B1E600;
+    display: block;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21x;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width:100%;
+    background-color: #B1E600;
+    border-radius: 10px;
+}
+
+a{
+    color: #B1E600;
+    font-size: 50px;
+    margin-left: 50px;
+    transition: all .2s linear;
+    text-decoration: none;
+}
+
+.navbar-links a:hover{
+    color: #4e6601;
+}
+
+.logo{
+    height: 40px;
+    width: 143px;
+    margin-left: 90px;
+    margin-top: 30px;                                                          
+    cursor: pointer;
+}
+
+.text{
+    color: #919191;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family:FANTONY;
+    line-height: 30px;
+}
+
+.ptitle{
+    color: #B1E600;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.par{
+    color: #919191;
+    margin-left: 60px;
+    font-family: sans-serif;
+}
+
+.bi-house{
+    color: #B1E600;
+    margin-left: 1100px;
+    transition: all .1s linear;
+}
+
+.bi-house:hover{
+    color: #7800FF;
+}
+
+.bi-caret-right{
+    color: #B1E600;
+    margin-left: 6px;
+}
+
+.addresst{
+    color: #B1E600;
+    margin-left: 0px;
+    font-size: 15px;
+    transition: all .1s linear;
+}
+
+.addresst:hover{
+    color: #7800FF;
+}
+
+.ada{
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+.spp{
+    background: linear-gradient(#1A1A1A,#A7800C,#C53282);
+    padding: 0;
+    margin: 0;
+    height: 1200px;
+}
+
+.NTMDP{
+    color: #FDDD9E;
+    text-align: center;
+    padding: 30px;
+}
+
+.fc{
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.top{
+    background-color: #B1E600;
+    height: 130px;
+    width: 230px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.bottom{
+    background-color: #2D2D2D;
+    color: #fff;
+    height: 300px;
+    width: 230px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.priceb{
+    font-family: EASPORTS15;
+    font-size: 25px;
+    text-decoration: bold;
+    text-align: left;
+    margin-left: 30px;
+    color: #1A1A1A;
+}
+
+.price{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+li{
+    margin-left: 30px;
+    margin-right: 15px;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.nav{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+/*ul li{
+    list-style-type: none;
+}*/
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.second, .third{
+    transition: all .1s linear;
+    margin-left: 50px;
+}
+
+.first, .second, .third{
+    transition: all .1s linear;
+    border-radius: 15px;
+    box-shadow: 0 0 5px  #393838, 0 0 20px  #393838, 0 0 40px  #393838;
+    cursor: pointer;
+}
+
+.first:hover{
+    border-radius: 15px;
+    box-shadow: 0 0 10px  #A4A4A4, 0 0 40px  #A4A4A4, 0 0 80px  #A4A4A4;
+}
+
+.second:hover{
+    border-radius: 15px;
+    box-shadow: 0 0 10px  #A4A4A4, 0 0 40px  #A4A4A4, 0 0 80px  #A4A4A4; 
+}
+
+.third:hover{
+    border-radius: 15px;
+    box-shadow: 0 0 10px  #A4A4A4, 0 0 40px  #A4A4A4, 0 0 80px  #A4A4A4;
+}
+
+.ada{
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+.fbl{
+    text-decoration: none;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.instal{
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.bi-facebook{
+    color: #B1E600;
+    transition: all .1s linear;
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+.bi-instagram{
+    color: #B1E600;
+    transition: all .1s linear;
+    font-size: 16px;
+    /*margin-left:23px;*/
+}
+
+.bi-instagram:hover{
+    color: #A93477;
+ }
+ 
+ .bi-facebook:hover{
+     color: #3B5998;
+  }
+
+  .hr{
+    width:500px;
+    margin-left: 700px;
+    margin-top: 5px;
+    background-color: azure;
+}   
+
+  .hm{
+    font-weight: 1000;
+    font-family: sans-serif;
+    line-height: 14px;
+    color: #B1E600;
+    font-size: 18px;
+    margin-left: 650px;
+    transition: all .2s linear;
+}
+
+.hm2{
+    font-weight: 1000;
+    font-family: sans-serif;
+    line-height: 14px;
+    color: #B1E600;
+    font-size: 18px;
+    margin-left: 650px;
+    transition: all .2s linear;    
+}
+
+.hm2:hover{
+    color: #7800FF;
+}
+
+.hm:hover{
+    color: #7800FF;
+}
+
+footer{
+    background: #B1E600;
+    height: 90px;
+    margin-top: 100px;
+}
+
+.bi-file-fill{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+svg{
+    color: #B1E600;
+    transition: all .1s linear;
+    /*margin-left:23px;*/
+}
+
+svg:hover{
+   color: #7800FF;
+}
+
+@media (max-width: 400px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+        height: 180px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo{
+        height: 40px;
+        width: 143px;   
+        /*margin-left: 90px;*/
+        margin-top: 10px;
+        margin-bottom: 10px;                                                       
+        cursor: pointer;
+    }
+
+    .navbar-links li{
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .navbar-links li .about{
+        margin-bottom:px;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+    .ptitle{
+        color: #B1E600;
+        margin-left: 30px;
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    
+    .par{
+        color: #919191;
+        margin-left: 30px;
+        font-size: 13px;
+        font-family: sans-serif;
+    }
+
+    .address{
+        margin-top: 23px;
+    }
+
+    .addresst{
+        color: #B1E600;
+        margin-left: 0px;
+        transition: all .1s linear;
+    }
+    
+    .addresst:hover{
+        color: #7800FF;
+    }
+    
+    .ada{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .bi-house{
+        color: #B1E600;
+        margin-left: 30px;
+        transition: all .1s linear;
+    }
+
+    
+.fbl{
+    text-decoration: none;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.instal{
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 3px;
+}
+
+.bi-facebook{
+    color: #B1E600;
+    transition: all .1s linear;
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+.bi-instagram{
+    color: #B1E600;
+    transition: all .1s linear;
+    font-size: 16px;
+    /*margin-left:23px;*/
+}
+
+.bi-instagram:hover{
+    color: #A93477;
+ }
+ 
+ .bi-facebook:hover{
+     color: #3B5998;
+  }
+
+  .hr{
+    width:250px;
+    margin-left: 3px;
+    margin-top: 5px;
+    background-color: azure;
+}   
+
+  .hm{
+    font-weight: 1000;
+    font-family: sans-serif;
+    line-height: 14px;
+    color: #B1E600;
+    font-size: 18px;
+    margin-left: -47px;
+    transition: all .2s linear;
+}
+
+.hm2{
+    font-weight: 1000;
+    font-family: sans-serif;
+    line-height: 14px;
+    color: #B1E600;
+    font-size: 18px;
+    margin-left: -47px;
+    transition: all .2s linear;    
+}
+
+.hm2:hover{
+    color: #7800FF;
+}
+
+.hm:hover{
+    color: #7800FF;
+}
+
+footer{
+    background: #B1E600;
+    height: 90px;
+    margin-top: 100px;
+}
+
+     .bi-file-fill{
+        margin-top: 10px;
+        margin-left: 3px;
+     }
+
+     .follow{
+        margin-top: -20px;
+     }
+
+     .main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+
+    }
+
+    .second, .third{
+       margin-top: 60px;
+       margin-left: 0px;
+    }
+
+     .text{
+        color: #919191;
+        margin-top: 40px;
+        margin-left: 3px;
+        font-size: 20px;
+        font-family:FANTONY;
+        line-height: 30px;
+    }
+
+    .content{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    footer .p{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,556 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: EASPORTS15;
+    src: url(fonts/EASPORTS15.ttf);
+}
+
+@font-face {
+    font-family: NimbusSanL-Bol;
+    src: url(fonts/NimbusSanL-Bol.otf);
+}
+
+@font-face {
+    font-family: FANTONY Regular;
+    src: url(fonts/FANTONY.otf);
+}
+
+@font-face {
+    font-family: Impact Regular;
+    src: url(fonts/impact.ttf);
+}
+
+body{
+    background: #1A1A1A;
+    font-family:  EASPORTS15;
+    margin-left: 0;
+    padding: 0;
+}
+
+.content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar{
+    background: #2D2D2D;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: #B1E600;
+}
+
+.navbar-links ul{
+    margin-left: 50px;
+    margin-right: 120px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+    font-size: 25px;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: #B1E600;
+    display: block;
+}
+
+a{
+    color: #B1E600;
+    font-size: 50px;
+    margin-left: 50px;
+    transition: all .2s linear;
+    text-decoration: none;
+}
+
+.navbar-links a:hover{
+    color: #4e6601;
+}
+
+font{
+    color: #B1E600;
+    transition: all .1s linear;
+}
+
+font:hover{
+   color: #7a2020;
+}
+
+.logo{
+    height: 40px;
+    width: 143px;
+    margin-left: 90px;
+    margin-top: 30px;                                                          
+    cursor: pointer;
+}
+
+.submit{
+    height: 50px;
+    width: 150px;
+}
+
+.submit:hover{
+    box-shadow: 0 0 10px  #A4A4A4, 0 0 40px  #A4A4A4, 0 0 80px  #A4A4A4;
+    transition: all .2s linear;
+    background-color: #919191;
+}
+
+svg{
+    color: #B1E600;
+    transition: all .1s linear;
+    /*margin-left:23px;*/
+}
+
+svg:hover{
+   color: #7800FF;
+}
+
+footer{
+    background: #B1E600;
+    height: 90px;
+    margin-top: 100px;
+}
+
+.follow{
+    margin-top: 20px;
+}
+
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21x;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width:100%;
+    background-color: #B1E600;
+    border-radius: 10px;
+}
+
+.ptitle{
+    color: #B1E600;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+.par{
+    color: #919191;
+    margin-left: 90px;
+    font-family: sans-serif;
+}
+
+.bi-house{
+    color: #B1E600;
+    margin-left: 1100px;
+    transition: all .1s linear;
+}
+
+.bi-house:hover{
+    color: #7800FF;
+}
+
+.bi-caret-right{
+    color: #B1E600;
+    margin-left: 6px;
+}
+
+.addresst{
+    color: #B1E600;
+    margin-left: 0px;
+    font-size: 15px;
+    transition: all .1s linear;
+}
+
+.addresst:hover{
+    color: #7800FF;
+}
+
+.ada{
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+form{
+    background: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h3{
+    color: #B1E600;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+form input, form textarea{
+    font-weight: 800;
+    font-family: sans-serif;
+    line-height: 14px;
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline:none;
+    color: #919191;
+    background: #1A1A1A;
+    font-size: 16px;
+}
+
+form button{
+    padding: 15px;
+    background: #B1E600;
+    color: #1A1A1A;
+    font-size: 18px;
+    font-family: EASPORTS15;
+    border: 0;
+    cursor: pointer;
+    width: 150px;
+}
+
+.fbl{
+    text-decoration: none;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.instal{
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+.bi-facebook{
+    color: #B1E600;
+    transition: all .1s linear;
+    margin-left: 0px;
+    font-size: 16px;
+}
+
+.bi-instagram{
+    color: #B1E600;
+    transition: all .1s linear;
+    font-size: 16px;
+    /*margin-left:23px;*/
+}
+
+.bi-instagram:hover{
+    color: #A93477;
+ }
+ 
+ .bi-facebook:hover{
+     color: #3B5998;
+  }
+
+  .hr{
+    width:500px;
+    margin-left: 700px;
+    margin-top: 5px;
+    background-color: azure;
+}   
+
+  .hm{
+    font-weight: 1000;
+    font-family: sans-serif;
+    line-height: 14px;
+    color: #B1E600;
+    font-size: 18px;
+    margin-left: 650px;
+    transition: all .2s linear;
+}
+
+.hm2{
+    font-weight: 1000;
+    font-family: sans-serif;
+    line-height: 14px;
+    color: #B1E600;
+    font-size: 18px;
+    margin-left: 650px;
+    transition: all .2s linear;    
+}
+
+.hm2:hover{
+    color: #7800FF;
+}
+
+.hm:hover{
+    color: #7800FF;
+}
+
+footer{
+    background: #B1E600;
+    height: 90px;
+    margin-top: 100px;
+}
+
+.bi-file-fill{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.footer{
+    background: #B1E600;
+    height: 90px;
+    margin-top: 100px;
+}
+
+.content{
+    margin-left: 100px;
+}
+
+
+.email-text{
+    font-size: 100px;
+    color: #B1E600;
+    font-family: Impact;
+    margin-top: 80px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.email-text:hover{
+    color: #7800FF;
+    font-size: 105px;
+    margin-top: 70px;
+    transition: all .1s linear;
+}
+
+@media (max-width: 400px) {
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links{
+        display: none;
+        height: 180px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo{
+        height: 40px;
+        width: 143px;   
+        /*margin-left: 90px;*/
+        margin-top: 10px;
+        margin-bottom: 10px;                                                       
+        cursor: pointer;
+    }
+
+    .navbar-links li{
+        margin-top: 7px;
+        text-align: center;
+    }
+
+    .navbar-links li .about{
+        margin-bottom:px;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+    .ptitle{
+        color: #B1E600;
+        margin-left: 30px;
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    
+    .par{
+        color: #919191;
+        margin-left: 30px;
+        font-size: 13px;
+        font-family: sans-serif;
+    }
+
+    .address{
+        margin-top: 23px;
+    }
+
+    .addresst{
+        color: #B1E600;
+        margin-left: 0px;
+        transition: all .1s linear;
+    }
+    
+    .addresst:hover{
+        color: #7800FF;
+    }
+    
+    .ada{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .bi-house{
+        color: #B1E600;
+        margin-left: 30px;
+        transition: all .1s linear;
+    }
+
+    form{
+        background: #2D2D2D;
+        display: flex;
+        flex-direction: column;
+        padding: 2vw 4vw;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 3px;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -260px;
+    }
+
+    .hr{
+        width:270px;
+        margin-left: 30px;
+        align-items: center;
+        margin-top: 5px;
+        background-color: azure;
+    } 
+    
+    .hm{
+        font-weight: 1000;
+        font-family: sans-serif;
+        line-height: 14px;
+        color: #B1E600;
+        font-size: 18px;
+        margin-left: -22px;
+        margin-top: 20px;
+        transition: all .2s linear;
+    }
+    
+    .hm2{
+        font-weight: 1000;
+        font-family: sans-serif;
+        line-height: 14px;
+        color: #B1E600;
+        font-size: 18px;
+        margin-left: -22px;
+        margin-top: 20px;
+        transition: all .2s linear;    
+    }
+    
+    .hm2:hover{
+        color: #7800FF;
+    }
+    
+    .hm:hover{
+        color: #7800FF;
+    }
+
+    .fbl{
+        text-decoration: none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .instal{
+        text-decoration: none;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    
+    .bi-facebook{
+        color: #B1E600;
+        transition: all .1s linear;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    
+    .bi-instagram{
+        color: #B1E600;
+        transition: all .1s linear;
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    
+    .bi-instagram:hover{
+        color: #A93477;
+     }
+     
+     .bi-facebook:hover{
+         color: #3B5998;
+      }
+
+     .bi-file-fill{
+        margin-top: 10px;
+        margin-left: 30px;
+     }
+
+     .follow{
+        margin-top: -20px;
+     }
+
+    .content{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    footer .p{
+        font-size: 13px;
+    }
+
+    footer{
+        background: #B1E600;
+        height: 90px;
+        margin-top: 287px;
+    }
+
+    .email-text{
+        font-size: 25px;
+        color: #B1E600;
+        font-family: Impact;
+        margin-top: 80px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .email-text:hover{
+        color: #B1E600;
+        font-size: 25px;
+        margin-top: 80px;
+        transition: all .1s linear;
+    }
+}
